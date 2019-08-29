@@ -56,6 +56,6 @@ def main():
     try:    
         filelist = getFilelist(sys.argv[1])
         writeJson(filelist)
-    except:
+    except: 
         print("ERROR!")
 main()
